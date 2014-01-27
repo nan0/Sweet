@@ -1,0 +1,12 @@
+body {
+    background-color: #dce0ff;
+}
+
+.jumbotron {
+    padding-top: 20px;
+}
+
+.tweet-wall {
+    margin: 5%;
+    text-align: center;
+}
