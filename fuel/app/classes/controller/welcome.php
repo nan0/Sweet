@@ -44,4 +44,6 @@ class Controller_Welcome extends Controller
 	{
 		return Response::forge(ViewModel::forge('welcome/404'), 404);
 	}
+
+
 }

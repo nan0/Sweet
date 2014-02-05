@@ -1,12 +1,66 @@
 body {
-    background-color: #dce0ff;
+    overflow:hidden;
+}
+
+.presentation {
+    background-color: #ff7049;
+    color: #ffffff;
 }
 
 .jumbotron {
+    color: #e7e7ee;
+    background-color: #312215;
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 
-.tweet-wall {
-    margin: 5%;
-    text-align: center;
+.navbar-footer {
+    background-color:  #312215;
+    border: none;
+    margin: 0px;
+}
+
+#tweets-wall {
+    background-image: url("../img/background_tweets2.png");
+    height: 200px;
+}
+
+#example1 {
+    margin-top: -50px;
+}
+
+a {
+    color: #e7e7ee;
+}
+
+a:hover {
+    color: #312215;
+    text-decoration: none;
+}
+
+.plane {
+    margin-left: -100px;
+    margin-top: 50px;
+    position:relative;
+    animation:plane 20s linear 2s infinite normal;
+    /* Safari and Chrome: */
+    -webkit-animation:plane 20s linear 2s infinite normal;
+}
+
+@keyframes plane
+{
+    0%   {left:0px; top:0px;}
+    25%  {left:25%; top:0px;}
+    50%  {left:50%; top:0px;}
+    75%  {left:75%; top:0px;}
+    100% {left:105%; top:0px;}
+}
+
+@-webkit-keyframes plane /* Safari and Chrome */
+{
+    0%   {left:0px; top:0px;}
+    25%  {left:25%; top:0px;}
+    50%  {left:50%; top:0px;}
+    75%  {left:75%; top:0px;}
+    100% {left:105%; top:0px;}
 }
